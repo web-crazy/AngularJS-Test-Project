@@ -1,12 +1,13 @@
 ## 1. Setup
 ```bash
-npm install
+yarn install
+bower install
 ```
 - install all npm and bower dependencies
 
 ## 2. Watch files
 ```bash
-npm start
+yarn start
 ```
 or
 ```bash
