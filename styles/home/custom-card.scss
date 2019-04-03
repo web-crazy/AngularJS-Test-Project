@@ -1,0 +1,90 @@
+.card-wrapper {
+  padding: 20px;
+  position: relative;
+  width: 255px;
+  height: 258px;
+  border: solid 1px #888;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &.normal {
+    border-color: #888;  
+  }
+
+  &.red {
+    border-color: #E15554;
+
+    .type {
+      background-color: #E15554;
+    }
+  }
+
+  &.blue {
+    border-color: #2C9ACD;
+
+    .type {
+      background-color: #2C9ACD;
+    }
+  }
+
+  &.green {
+    border-color: #1EB386;
+
+    .type {
+      background-color: #1EB386;
+    }
+  }
+
+  .type {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: -75px;
+    left: -75px;
+    transform: rotate(-45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #888;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.83px;
+  }
+
+  .image {
+    width: 90px;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #47676E;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2C9ACD;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+}
